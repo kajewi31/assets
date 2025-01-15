@@ -1,0 +1,37 @@
+# Jupyter Notebook
+jupyter
+jupyterlab
+
+# Data Engineering (DE)
+numpy
+pandas
+pyarrow  # For working with Apache Arrow
+openpyxl  # For Excel file handling
+
+# Machine Learning (ML)
+scikit-learn
+xgboost
+lightgbm
+
+# Deep Learning (DL)
+torch
+torchvision
+tensorflow
+
+# Database & MySQL
+sqlalchemy
+pymysql
+mysqlclient
+psycopg2  # For PostgreSQL support
+sqlite3   # Built-in SQLite support
+
+# Visualization
+matplotlib
+seaborn
+plotly
+bokeh
+
+# Others (Utilities)
+requests  # For HTTP requests
+beautifulsoup4  # For web scraping
+tqdm  # For progress bars

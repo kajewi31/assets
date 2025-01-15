@@ -1,0 +1,64 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    
+    // FONT
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.minimap.sectionHeaderFontSize": 16,
+    "debug.console.fontSize": 16,
+    "scm.inputFontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "chat.editor.fontSize": 16,    
+    "notebook.output.fontSize": 14,
+    
+    // WORKBENCH
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    
+    // COLORS
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#0080ffa0",
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#00ff00a0",
+    },
+    
+    // TERMINAL
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.inheritEnv": false,
+
+    // PYTHON
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none",
+        // "reportUndefinedVariable": "none",
+    },
+    
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "autopep8.args": [
+        "--max-line-length",
+        "120",  // 원하는 길이로 설정
+        "--ignore",
+        "E501" // 길이 제한을 무시하고 라인 밀림 방지
+    ],
+    "editor.rulers": [120],
+    "window.zoomLevel": 0,
+    // "[python]": {
+    //     "editor.defaultFormatter": "ms-python.black-formatter",
+    // },
+    // "black-formatter.args": [
+    //     "--skip-string-normalization",
+    //     "--line-length",
+    //     "130"
+    // ],
+}

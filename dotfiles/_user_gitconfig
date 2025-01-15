@@ -1,7 +1,0 @@
-[user]
-    name = kajewi31
-    email = kajewi31@gmail.com
-
-[core]
-    sshCommand = ssh -i ~/.ssh/kajewi31
-

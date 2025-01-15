@@ -1,7 +1,0 @@
-[includeIf "gitdir:~/Desktop/things/githubs/kajewi31/"]
-	path = ~/Desktop/things/githubs/kajewi31/.gitconfig
-
-
-[init]
-	defaultBranch = main
-
